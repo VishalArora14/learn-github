@@ -45,5 +45,11 @@ story : imagine in a wedding and there are guests waiting to get their pic click
 14)git checkout feature 
   now head on feature branch
 
-15)
+15)git remote add upstream <url>
+add upstream url
+
+16)create a new branch in forked copy. Add upstream url
+  Now idea is to make changes in our forked copy and that too in a branch other than main.
+  then merge this new branch with original proj main branch through a pull req.
+
 

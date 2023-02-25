@@ -36,3 +36,14 @@ story : imagine in a wedding and there are guests waiting to get their pic click
 11)Git remote add origin <url>
   this is used to connect remote file with code.
 
+12)git remote -v 
+  to look for all the urls attached.
+
+13)git branch feature
+  new brach feature created
+
+14)git checkout feature 
+  now head on feature branch
+
+15)
+

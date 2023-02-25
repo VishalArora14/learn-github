@@ -30,3 +30,5 @@ story : imagine in a wedding and there are guests waiting to get their pic click
   use git stash. It will put the current folder structure behind the stage.
   and use git stash pop [stash files come back]
   git stash clear [now stash files are deleted]
+
+  git stash pop wont take you back to previous commit rather it will just bring back untracked files back.

@@ -29,6 +29,10 @@ story : imagine in a wedding and there are guests waiting to get their pic click
 10) now imagine after a commit you made some changes but you dont want to commit the current changes.
   use git stash. It will put the current folder structure behind the stage.
   and use git stash pop [stash files come back]
-  git stash clear [now stash files are deleted]
+  git stash clear [now stash files are deleted PERMANENTLY]
 
   git stash pop wont take you back to previous commit rather it will just bring back untracked files back.
+
+11)Git remote add origin <url>
+  this is used to connect remote file with code.
+

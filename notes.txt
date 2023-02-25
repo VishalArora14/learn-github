@@ -52,4 +52,20 @@ add upstream url
   Now idea is to make changes in our forked copy and that too in a branch other than main.
   then merge this new branch with original proj main branch through a pull req.
 
+17)One branch can create only 1 pull request.
+  All the new commits will be commited in the first PR rather than creating a new PR.
 
+18)Force push use a -f flag when latest commit of online branch is diff than local branch.
+
+19)sync fork with main repo
+  first git checkout main
+  2 ways : 
+  1)using fetch upstream button present on the github
+  2)git fetch --all --prune
+  prune fetches all the deleted commits as well
+
+  3) git reset --hard upstream/master
+
+  now local master will be same as organisations master branch
+
+20)

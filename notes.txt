@@ -68,4 +68,6 @@ add upstream url
 
   now local master will be same as organisations master branch
 
-20)
+20)git pull upstream main
+  this also does the same thing as done by all commands in step 19.
+  

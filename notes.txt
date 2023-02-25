@@ -1,0 +1,32 @@
+story : imagine in a wedding and there are guests waiting to get their pic clicked with couple.
+  Guests who are on stag are called to be on staging area.
+  when pic is clicked its saved. Thus commited a change.
+
+1) ls, ls -a [list all files]
+2) ls <folder name>
+3) mkdir folder_name [creates folder]
+
+4) git status to check untracked files 
+5) git add . 
+  git add <file_name>
+
+  to add files to staging area
+
+6) cat names.txt 
+  displays content of file names.txt
+
+7) git restore --staged names.txt
+  removes names.txt from staging area
+
+8)git log
+ history of commits
+
+9) git reset <id of commit>
+  all the commits above it or all the commits newer as comapared to the id mentioned will be deleted 
+  or you can say they will be unstaged. ie not on staging area anymore.
+  Now means their pics are deleted.
+
+10) now imagine after a commit you made some changes but you dont want to commit the current changes.
+  use git stash. It will put the current folder structure behind the stage.
+  and use git stash pop [stash files come back]
+  git stash clear [now stash files are deleted]

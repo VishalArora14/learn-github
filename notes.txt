@@ -63,3 +63,9 @@ add upstream url
   1)using fetch upstream button present on the github
   2)git fetch --all --prune
   prune fetches all the deleted commits as well
+
+  3) git reset --hard upstream/master
+
+  now local master will be same as organisations master branch
+
+20)

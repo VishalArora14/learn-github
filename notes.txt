@@ -83,7 +83,7 @@ if we want to merge all commits.
 We can reset the commit 1. Now all the commits above it are unstaged. 
 We can commit all of them into a single commit as 2.
 
-21)Git rebase :
+21)Git rebase & Squashing Commits : 
   suppose the prev example
   4
   3
@@ -117,6 +117,6 @@ We can commit all of them into a single commit as 2.
   to exit use command  
   esc : x
 
-22)Squashing Commits : 
+  Note : the first pick is necessary. Ie first line should be pick.
 
 

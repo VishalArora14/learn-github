@@ -71,3 +71,52 @@ add upstream url
 20)git pull upstream main
   this also does the same thing as done by all commands in step 19.
   
+
+21)eg 4 commits : and 4 being the most recent one.
+  4
+  3
+  2
+  1
+
+Always make the main branch up to date before creating a branch.
+if we want to merge all commits.
+We can reset the commit 1. Now all the commits above it are unstaged. 
+We can commit all of them into a single commit as 2.
+
+21)Git rebase :
+  suppose the prev example
+  4
+  3
+  2
+  1
+
+  we want to merge only 2 and 3 in 1. So we'll use
+  git rebase -i <id of 1>
+  -i means interactive
+
+  The commits are rearranged in reverse order
+
+  pick 1
+  pick 2
+  pick 3
+  pick 4
+  pick 5
+
+  we'll be provided this choice. Now we may pick or squash the commits.
+  NOTE : Line will be executed from top to bottom
+
+  pick 1
+  s 2
+  s 3
+  pick 4
+  s 5
+
+  2 3 will be merged with 1
+  and 5 with 4
+
+  to exit use command  
+  esc : x
+
+22)Squashing Commits : 
+
+
